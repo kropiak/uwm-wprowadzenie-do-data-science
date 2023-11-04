@@ -29,7 +29,7 @@ Jako, że Visual Studio Code jest bardzo popularnym narzędziem do pracy z wielo
 \* proces instalacji na innych niż Windows platformach będzie się nieco różnił.
 
 **Krok 2** – instalacja interpretera języka Python. 
-Na stronie https://www.python.org/ przechodzimy do podstrony Downloads i odnajdujemy wersję 3.10.10. (https://www.python.org/downloads/release/python-3116/). Następnie w części **Files** (na dole strony) odnajdujemy paczkę dla naszego systemu operacyjnego. Jeżeli nie jesteśmy pewni czy dysponujemy wersją 32 czy 64-bitową systemu operacyjnego, można to sprawdzić wybierając z menu kontekstowego (prawy przycisk myszy) opcję 'Właściwości' na ikonie Ten komputer (lub Mój komputer) w przypadku systemu Windows. Dla wersji 64-bit właściwą paczką dla systemu Windows będzie `Windows x86-64 executable installer`, a dla 32-bitowej `Windows x86 executable installer`.
+Na stronie https://www.python.org/ przechodzimy do podstrony Downloads i odnajdujemy wersję 3.11.6. (https://www.python.org/downloads/release/python-3116/). Następnie w części **Files** (na dole strony) odnajdujemy paczkę dla naszego systemu operacyjnego. Jeżeli nie jesteśmy pewni czy dysponujemy wersją 32 czy 64-bitową systemu operacyjnego, można to sprawdzić wybierając z menu kontekstowego (prawy przycisk myszy) opcję 'Właściwości' na ikonie Ten komputer (lub Mój komputer) w przypadku systemu Windows. Dla wersji 64-bit właściwą paczką dla systemu Windows będzie `Windows x86-64 executable installer`, a dla 32-bitowej `Windows x86 executable installer`.
 Uruchomienie pobranego pliku skutkuje pojawieniem się okna podobnego do poniższego.
 
 ![Instalacja krok 1](lab_00_1.png)
