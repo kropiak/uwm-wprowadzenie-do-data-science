@@ -388,3 +388,10 @@ Po więcej przykładów związanych z formatowaniem łańcuchów można udać si
 1.	https://docs.python.org/3/library/string.html#format-string-syntax
 2.	https://pyformat.info/
 3.	https://realpython.com/python-f-strings/
+
+> **Ćwiczenia**
+
+1. Korzystając ze zmiennej z zadania 1 wyświetl na konsoli tekst postaci:
+„W tekście jest {liczba_liter1} liter {litera_1} oraz {liczba_liter2} liter {litera_2}” . W miejsca {liczba_liter1} oraz {liczba_liter2} podstaw zmienne, które będą przechowywały liczbę wystąpień danych liter (poszukaj odpowiedniej metody dla typu **str**). Litery, które mają być wyszukane to 4 litera nazwiska oraz 3 litera imienia osoby wykonującej ćwiczenie, np. imie = „Krzysztof”, nazwisko = „Ropiak”, litera_1 = imie[2], litera_2 = nazwisko[3].
+
+2.	Przejdź na stronę https://pyformat.info/ a następnie zapisz w oddzielnym pliku .py i wykonaj 5 wybranych przykładów formatowania ciągów oznaczonego jako „New”, których nie było w przykładach z tego podrozdziału (np. z wyrównaniem, ilością pozycji liczby, znakiem itp.).
