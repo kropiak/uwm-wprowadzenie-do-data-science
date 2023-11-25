@@ -367,5 +367,5 @@ W zdaniu 'Ala ma kota.' występuje 6 znaków wspólnych ze zbiorem string.ascii_
 W zdaniu 'Ala ma kota.' występuje 0 znaków wspólnych ze zbiorem string.digits,  co stanowi  0.00 % tego zbioru.
 
 **Zadanie 8**  
-Napisz kod, w którym pobierzesz za pomocą funkcji `input()` 3 wartości przypisując je do zmiennych: strt, stop oraz step.
+Napisz kod, w którym pobierzesz za pomocą funkcji `input()` 3 wartości przypisując je do zmiennych: start, stop oraz step.
 Następnie użyj ich jako parametrów funkcji `range` i wykorzystując przykłady z listingu 10 wypisz wszystkie wartości ciągu wygenerowane przez tę funkcję. Zwróć uwagę na typ danych, który zwraca funkcja `input()` - będzie konieczna konwersja (rzutowanie).
