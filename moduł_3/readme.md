@@ -339,7 +339,7 @@ Stwórz listę z wartościami od 1 do 10. Następnie podziel listę tak, aby pie
 Połącz te listy ponownie. Dodaj do listy wartość „0” na początku. Utwórz kopię połączonej listy i wyświetl listę posortowaną malejąco.
 
 **Zadanie 3**  
-Napisz skrypt, który pobierze dowolny tekst ze standardowego wejścia poprzez funckję `input()`. Następnie wyświetl ciąg unikalnych znaków z wczytanego zdania, zapisanych alfabetycznie małymi literami.*
+Napisz skrypt, który pobierze dowolny tekst ze standardowego wejścia poprzez funkcję `input()`. Następnie wyświetl ciąg unikalnych znaków z wczytanego zdania, zapisanych alfabetycznie małymi literami.*
 
 \* wykorzystaj rzutowanie typu str na set oraz set na list i użyj funkcji sortującej listę
 
