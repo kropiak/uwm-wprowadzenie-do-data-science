@@ -363,7 +363,7 @@ Wejście (input):
 Ala ma kota.
 
 Wyjście (output):  
-W zdaniu 'Ala ma kota.' występuje 6 znaków wspólnych ze zbiorem string.ascii_lowercase,  co stanowi  0.23 % tego zbioru.  
+W zdaniu 'Ala ma kota.' występuje 6 znaków wspólnych ze zbiorem string.ascii_lowercase,  co stanowi  23.00 % tego zbioru.  
 W zdaniu 'Ala ma kota.' występuje 0 znaków wspólnych ze zbiorem string.digits,  co stanowi  0.00 % tego zbioru.
 
 **Zadanie 8**  
