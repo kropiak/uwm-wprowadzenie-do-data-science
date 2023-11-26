@@ -274,10 +274,10 @@ Napisz pętlę, która wyświetla liczby podzielne przez 5 z zakresu [0,50]
 Napisz pętle (while), która pobiera liczby od użytkownika i wyświetla ich kwadraty na ekranie. Liczby pobierane są w postaci oddzielonej spacjami. Pętla kończy działanie po wpisaniu słowa `quit`.
 
 **Zadanie 6**  
-Napisz skrypt, który odczytuje liczby od użytkownika i umieszcza je na liście. Liczby dodajemy do momentu wpisania słowa 'stop' zamiast liczby. Wykorzystaj pętle while.
+Napisz skrypt, który odczytuje liczby od użytkownika i umieszcza je na liście. Liczby dodajemy do momentu wpisania słowa 'stop' zamiast liczby. Wykorzystaj pętle while. Po wpisaniu stop wyświetl listę liczb.
 
 **Zadanie 7**  
-Napisz skrypt, który odczytuje od użytkownika liczbę wielocyfrową i sumuje jej cyfry. Wynik wyświetla na ekranie. Wykorzystaj pętle while.
+Napisz skrypt, który odczytuje od użytkownika liczbę wielocyfrową i sumuje jej cyfry. Wynik wyświetla na ekranie. Napisz dwa rozwiązania: jedno z uzyciem pętli `for` a drugie z użyciem pętli `while`.
 
 **Zadanie 8**  
 Napisz skrypt, który rysuje wieżę z literek. Użytkownik podaje wysokość wieży, ale nie więcej jak 10.
