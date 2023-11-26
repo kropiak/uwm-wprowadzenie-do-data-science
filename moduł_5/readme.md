@@ -96,7 +96,7 @@ print(odwrocone)
 
 Zdefiniuj następujące zbiory, wykorzystując Python comprehension:  
 A={1/x: x&isin;<1,10>}  
-B={1, 2, 4, 8,…, `${2^{10}}$`}  
+B={1, 2, 4, 8,…, `$2^{10}$`}  
 C={x: x&isin; B i x jest liczbą podzielną przez 4}  
 
 **Zadanie 2**
