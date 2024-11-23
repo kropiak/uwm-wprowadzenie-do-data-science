@@ -80,7 +80,7 @@ lista = [1, 2, 3, 4]
 print(1 in lista)
 print(5 not in lista)
 
-# operatory bitowe (zobacz: https://docs.python.org/3.10/library/stdtypes.html#bitwise-operations-on-integer-types)
+# operatory bitowe (zobacz: https://docs.python.org/3.12/library/stdtypes.html#bitwise-operations-on-integer-types)
 x | y # logiczna alternatywy (ang. or) na x i y
 x ^ y # logiczna alternatywa rozłączna na x i y
 x & y # logiczna koniunkcja of x and y
@@ -97,15 +97,15 @@ if (n := len(lista)) > 10:
     print(f"List is too long ({n} elements, expected <= 10)")
 ```
 
-Python w bardziej złożonych wyrażeniach wykonuje działania w określonej kolejności:
+Python w wyrażeniach wykonuje działania w określonej kolejności:
 
 1.	najpierw `**`
 2.	następnie `*`, `/` oraz `%`
 3.	a dopiero na końcu `+` i `-`
 
-Informacje o epratorach, rozbite niestety w wielu podrodziałach, znajdują się w dokumencie opisującym wbudowane typy danych języka Python: https://docs.python.org/3.11/library/stdtypes.html. Do tego dokumentu będziemy jeszcze wracać.
+Informacje o epratorach, rozbite niestety w wielu podrodziałach, znajdują się w dokumencie opisującym wbudowane typy danych języka Python: https://docs.python.org/3.12/library/stdtypes.html. Do tego dokumentu będziemy jeszcze wracać.
 
-Bardziej szczegółowe informacje na temat priorytetów operatorów można znaleźć tu: https://docs.python.org/3.11/reference/expressions.html#operator-summary
+Bardziej szczegółowe informacje na temat priorytetów operatorów można znaleźć tu: https://docs.python.org/3.12/reference/expressions.html#operator-summary
 
 
 W Pythonie jako fałsz traktowane są:
@@ -166,7 +166,7 @@ Dla zainteresowanych problemem reprezentacji liczb zmiennoprzecinkowych w system
 
 ## 3. Typ `str`. Wybrane właściwości.
 
-> Dokumentacja: https://docs.python.org/3.11/library/stdtypes.html#str
+> Dokumentacja: https://docs.python.org/3.12/library/stdtypes.html#str
 
 Typ łańcuchowy jest chyba najbardziej powszechnym typem danych nie tylko w języku Python. Dane pobierane z plików, bez względu na ich postać są pierwotnie zapisane jako łańcuch znaków, a następnie mogą być skonwertowane na inny typ, np. numeryczny. Zapisanie danych do pliku wyjściowego również wymaga często ich rzutowania (zamiany typu) na typ `str`.
 
@@ -391,7 +391,30 @@ Po więcej przykładów związanych z formatowaniem łańcuchów można udać si
 
 > **Ćwiczenia**
 
-1. Do zmiennej `zdanie` zapisz dowolne zdanie (w kodzie lub pobrane za pomocą `input()`), a następnie wyświetl na konsoli tekst postaci:
-„W tekście jest `{liczba_liter1}` liter `{litera_1}` oraz `{liczba_liter2}` liter `{litera_2}`” . W miejsca `{liczba_liter1}` oraz `{liczba_liter2}` podstaw zmienne, które będą przechowywały liczbę wystąpień danych liter (poszukaj odpowiedniej metody dla typu **str**). Litery, które mają być wyszukane to 4 litera nazwiska oraz 3 litera imienia osoby wykonującej ćwiczenie, np. `imie = „Krzysztof”, nazwisko = „Ropiak”, litera_1 = imie[2], litera_2 = nazwisko[3]`.
+1. Napisz fragment kodu, który wczyta trzy zmienne ze standardowego wejścia (np. funkcja input()):
+   * linię danych rozdzielonych jakimś separatorem (spacja, średnik, itd.)
+   * separator źródłowy
+   * separator docelowy  
+   
+Następnie zaimplementuj z użyciem metod `str.split()` oraz `str.join()` podzielenie danych wejściowych pierwszym separatorem, połączenie i wypisanie danych połączonych drugim separatorem.
+Czy można to zrobić prościej wykorzystując inne wbudowane metody?
 
-2.	Przejdź na stronę https://pyformat.info/ a następnie zapisz w oddzielnym pliku .py i wykonaj 5 wybranych przykładów formatowania ciągów oznaczonego jako „New”, których nie było w przykładach z tego podrozdziału (np. z wyrównaniem, ilością pozycji liczby, znakiem itp.).
+2. Użyj funkcji `input()` aby pobrać łańcuch znaków z klawiatury i z użyciem wycinków (slice) wykonaj:
+  * podziel łańcuch na dwie części, w miarę możliwości równe, ale jeżeli długość łańcucha jest nieparzysta, np. 11 znaków to pierwszy ma długość 5, a drugi 6. Wyświetl te łańcuchy w oknie konsoli.
+  * wyświetl łańcuch składający się z co drugiego znaku licząc od końca łańcucha
+
+3. Wyświetl na konsoli dowolny ciąg znaków i wykorzystaj wbudowane metody:
+* `title()`, 
+* `capitalize()`,
+* `zfill()`,
+* `upper()`,
+* `count()`,
+* `center()`.
+
+4. Wprowadź z klawiatury dowolny łańcuch znaków i zapisz go do zmiennej. Następnie bazując na przykładzie poniżej zapisz również wyniki dla metod `isalpha(), isascii(), isprintable(), istitle(), isupper()`.
+`wejscie = input()`
+`print(f"Łańcuch {wejscie} isdecimal: {wejscie.isdecimal()}")`.
+
+5. Przejdź na stronę https://pyformat.info/, a następnie zapisz w oddzielnym pliku .py i wykonaj 5 wybranych przykładów formatowania ciągów oznaczonego jako „New”, których nie było w przykładach z tego podrozdziału (np. z wyrównaniem do prawej lub lewej strony, ilością pozycji liczby, znakiem, wypełnieniem spacji itp.). Przerób zaprezentowane tam przykłady na postać z użyciem f-string.
+
+6. Wykorzystując **listing 7** wypisz na konsoli 10 wybranych znaków niestandardowych (np. litery z alfabetu greckiego, symbole walut - (funt, bitcoin)) wypisując jednocześnie jego kod z tablicy unicode.

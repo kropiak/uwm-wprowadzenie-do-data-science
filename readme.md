@@ -1,4 +1,4 @@
-# Wprowadzenie do języka python
+# Wprowadzenie do języka Python
 
 Prowadzący: Krzysztof Ropiak, kropiak@matman.uwm.edu.pl
 
@@ -12,7 +12,7 @@ Na początku każdych zajęć prowadzący, bazując na skrypcie omawia zagadnien
 
 ### **1.2 Środowisko pracy**
 
-W trakcie zajęć wykorzystywany będzie interpreter języka **Python w wersji 3.11.6** dostępny pod adresem https://www.python.org/downloads/release/python-3116/. Podstawowym narzędziem pracy będzie **PyCharm Community Edition**, ale zaprezentowane zostanie również narzędzie **Visual Studio Code (VSC) wraz z pluginem Python**. Cały proces instalacji oraz konfiguracji środowiska zostanie przedstawiony na pierwszych zajęciach wraz z pisemną dokumentacją najważniejszych jej elementów. Możliwe jest również przedstawienie podstawowej koncepcji wykorzystania narzędzia Git.
+W trakcie zajęć wykorzystywany będzie interpreter języka **Python w wersji 3.12.7**. Podstawowym narzędziem pracy będzie **PyCharm Community Edition**, ale zaprezentowane zostanie również narzędzie **Visual Studio Code (VSC) wraz z pluginem Python**. Cały proces instalacji oraz konfiguracji środowiska zostanie przedstawiony na pierwszych zajęciach wraz z pisemną dokumentacją najważniejszych jej elementów. Możliwe jest również przedstawienie podstawowej koncepcji wykorzystania narzędzia Git.
 
 W trakcie zajęć poruszone zostaną zagadnienia z poniższej listy:
 
@@ -29,12 +29,12 @@ W trakcie zajęć poruszone zostaną zagadnienia z poniższej listy:
 * tworzenie własnych modułów i pakietów,
 * operacje na plikach,
 * wprowadzenie do programowania obiektowego w języku Python,
-* wstęp do narzędzie Jupyter Notebook.
+* wstęp do narzędzia Jupyter Notebook.
 
 ### **1.3 Warunki zaliczenia przedmiotu**
 
 Na zaliczenie przedmiotu składają się:
-* wykonanie niewielkiego projektu końcowego (szczegóły zostaną przedstawione w późniejszym czasie),
+* wykonanie niewielkiego projektu końcowego (szczegóły znajdują się w pliku Wymagania projektu zaliczeniowego.pdf),
 * ocena pracy studenta w trakcie zajęć oraz przydzielonych zadań do samodzielnego wykonania.
 
 ## **2. Literatura i materiały uzupełniające**
@@ -46,7 +46,7 @@ Na zaliczenie przedmiotu składają się:
 5. (POL) http://python101.readthedocs.io/pl/latest/ - dość obszerne źródło wiedzy z zakresu języka Python z przykładomi rozwiązań kilku problemów. Duży przekrój zastosowań języka Python.
 7. (ENG) https://leanpub.com/python_101 - bardzo dobry e-book wprowadzający do Pythona, wersja angielska, ale można ją pobrać za darmo (tak było dla wersji 1.0, wersja 2.0 płatna). Wersję 1.0 można znaleźć pod adresem https://python101.pythonlibrary.org/
 8. (ENG) https://realpython.com/ - bardzo wysokiej jakości tutoriale, duża liczba darmowych, ale też część dostępna po wykupieniu dostępu.
-8. (ENG) http://www.packtpub.com – można tutaj przechodząc do sekcji free learning otrzymać dostęp do dość obszernego zestawu darmowych e-booków. Dodatkowo dość często, przez ograniczony czas, pojawiają się nowe darmowe e-booki do pobrania lub dodania do  swojej biblioteki.
+8. (ENG) http://www.packtpub.com – można tutaj przechodząc do sekcji free learning otrzymać dostęp do dość obszernego zestawu darmowych e-booków. Dodatkowo dość często, przez ograniczony czas, pojawiają się nowe darmowe e-booki do pobrania lub dodania do swojej biblioteki.
 9. (ENG) Link do dokumentacji VSC + Python - https://code.visualstudio.com/docs/python/python-tutorial
 10. (ENG) http://www.humblebundle.com (głównie https://www.humblebundle.com/books) – możliwość zakupu całych zbiorów (nie tylko e-booki), które pojawiają się raz na jakiś czas, najczęściej wokół określonego tematu.
 11. (ENG) https://www.codecademy.com/learn/learn-python-3 - darmowy kurs wprowadzający do języka Python w wersji 3. Dostępne również wyzwania programistyczne i inne kursy.

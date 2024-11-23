@@ -1,9 +1,9 @@
-# Moduł 3 - Podstawowe struktury danych.
+# Moduł 3 - Podstawowe struktury danych, część 2.
 
 
 ## 1. Typ `list`.
 
-> **Dokumentacja**: https://docs.python.org/3.11/tutorial/datastructures.html#more-on-lists
+> **Dokumentacja**: https://docs.python.org/3.12/tutorial/datastructures.html#more-on-lists
 
 Lista w języku Python to kolekcja, którą można porównać do tablic w innych językach programowania. Ważną cechą list jest to, że mogą przechowywać różne typy danych (są więc heterogeniczne). Rozmiar tablicy ograniczony jest możliwościami sprzętu.
 Listę możemy zainicjalizować w poniższy sposób:
@@ -144,7 +144,7 @@ W tym rozdziale zostały zaprezentowane podstawowe operacje na listach. Python o
 
 ### 2. Słowniki, czyli typ `dict`.
 
-> **Dokumentacja**: https://docs.python.org/3.11/tutorial/datastructures.html#dictionaries
+> **Dokumentacja**: https://docs.python.org/3.12/tutorial/datastructures.html#dictionaries
 
 Słownik to tablica mieszająca lub inaczej tablica z haszowaniem, którą można porównać do tablic asocjacyjnych znanych z innych języków programowania. Słowniki przechowują pary **klucz: wartość** i właśnie poprzez odwołanie do klucza odbywa się dostęp do elementu. 
 
@@ -188,7 +188,7 @@ print(slownik.keys())
 
 ## 3. Krotki, czyli typ `tuple`.
 
-> **Dokumentacja**: https://docs.python.org/3.11/tutorial/datastructures.html#tuples-and-sequences
+> **Dokumentacja**: https://docs.python.org/3.12/tutorial/datastructures.html#tuples-and-sequences
 
 Krotki (ang. tuples) są bardzo podobne do list z tą różnicą, że są typem niezmiennym i deklaracja zmiennych zapisywana jest w nawiasach zwykłych, a nie kwadratowych. Również mogą przechowywać wiele typów danych jednocześnie.
 
@@ -242,7 +242,7 @@ z = 7
 
 ## 4. Zbiory, czyli typ `set`.
 
-> **Dokumentacja**: https://docs.python.org/3.11/tutorial/datastructures.html#sets
+> **Dokumentacja**: https://docs.python.org/3.12/tutorial/datastructures.html#sets
 
 Zbiór (ang. set) to nieuporządkowana kolekcja, której ważną cechą jest to, że znajdują się w niej unikalne elementy (czyli bez powtórzeń). Zbiory obsługują również matematyczne operacje, które znane są z teorii zbiorów: suma, przecięcie, różnica oraz różnica symetryczna.
 
@@ -274,7 +274,7 @@ Bardzo przydatna staje się własność unikalnych elementów zbioru jeżeli chc
 
 ## 5. Funkcja `range`.
 
-> **Dokumentacja**: https://docs.python.org/3.11/library/functions.html#func-range
+> **Dokumentacja**: https://docs.python.org/3.12/library/functions.html#func-range
 
 Funkcja (chociaż nazywając precyzyjniej to niezmienna sekwencja) `range` służy do generowania ciągu liczb według zadanych parametrów. Często przydaje się w pętlach lub podczas tworzenia list lub zbiorów liczb. 
 Funkcja range() i sposób jej użycia zmieniał się w trakcie rozwoju języka i jej zastosowanie w wersji Python 2.x różni się od tego, co będzie zaprezentowane tutaj. Zapoznanie się ze szczegółami dotyczącymi tych różnic pozostawiam czytelnikowi.
@@ -326,7 +326,7 @@ for i in frange(0.1, 0.5, 0.1):
 Dla osób chcących przenieść swoją wiedzę na temat list i krotek na nieco wyższy poziom, zachęcam do przeczytania artykułu na temat mechanizmu alokacji pamięci dla tych dwóch typów w implementacji CPython: https://www.opensourceforu.com/2021/05/memory-management-in-lists-and-tuples/
 Można tam znaleźć również informacje o złożoności obliczeniowej wybranych metod dla klasy `list` co może pomóc w procesie optymalizacji kodu wykorzystującego te kolekcje.
 
-### **Ćwiczenia!**  
+### **Ćwiczenia**  
 > Wykonaj zadanie numer 8 znajdujące się na końcu tego dokumentu.
 
                                                                                                         
@@ -341,7 +341,7 @@ Połącz te listy ponownie. Dodaj do listy wartość „0” na początku. Utwó
 **Zadanie 3**  
 Napisz skrypt, który pobierze dowolny tekst ze standardowego wejścia poprzez funkcję `input()`. Następnie wyświetl ciąg unikalnych znaków z wczytanego zdania, zapisanych alfabetycznie małymi literami.*
 
-\* wykorzystaj rzutowanie typu str na set oraz set na list i użyj funkcji sortującej listę
+\* wykorzystaj rzutowanie typu `str` na `set` oraz `set` na `list` i użyj funkcji sortującej listę
 
 **Zadanie 4**  
 Stwórz słownik gdzie kluczami będą numery miesięcy (rozpoczynając od 1) a wartościami nazwy polskich miesięcy.
@@ -354,17 +354,21 @@ Wykorzystując ciąg tekstowy 'Marianna' oraz metodę **fromkeys()** dla słowni
 Poprawne wyjście: `{'M': 1, 'a': 1, 'r': 1, 'i': 1, 'n': 1}`
 
 **Zadanie 7**  
-Wykorzystaj moduł `string` (dodaje się go poprzez instrukcję `import string` zapisaną na początku skryptu) i następnie:
+Wykorzystaj moduł `string` (dodaje się go poprzez instrukcję `import string` zapisaną zazwyczaj na początku skryptu) i następnie:
 * wczytaj ze standardowego wejścia dowolny łańcuch znaków,
-* używając formatowania znaków wyświetl ile znaków oraz jaki procent (zamienionych na małe litery) z nich pokrywa się ze zbiorem znaków z: `string.ascii_lowercase, string.digits`.
+* używając formatowania znaków wyświetl ile znaków oraz jaki procent (zamienionych na małe litery) z nich pokrywa się ze zbiorem znaków z: `string.ascii_lowercase, string.digits` (podpowiedź: operator `in`)
 
 **Przykład:**  
 Wejście (input):  
+```console 
 Ala ma kota.
+```
 
-Wyjście (output):  
+Wyjście (output):
+```console  
 W zdaniu 'Ala ma kota.' występuje 6 znaków wspólnych ze zbiorem string.ascii_lowercase,  co stanowi  23.00 % tego zbioru.  
 W zdaniu 'Ala ma kota.' występuje 0 znaków wspólnych ze zbiorem string.digits,  co stanowi  0.00 % tego zbioru.
+```
 
 **Zadanie 8**  
 Napisz kod, w którym pobierzesz za pomocą funkcji `input()` 3 wartości przypisując je do zmiennych: start, stop oraz step.
