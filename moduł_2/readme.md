@@ -389,6 +389,35 @@ Po więcej przykładów związanych z formatowaniem łańcuchów można udać si
 2.	https://pyformat.info/
 3.	https://realpython.com/python-f-strings/
 
+**Listing 10**	
+```python
+# \r jest sekwencją sterującą (tu powrót karetki), sprawdź co to oznacza
+print('elo\r', end='')
+print('zero\r', end='')
+
+# sekwencje sterujące są opisane tu:
+# https://docs.python.org/3.12/reference/lexical_analysis.html#escape-sequences
+
+# gdybyśmy jednak chcieli wypisać na konsoli łańcuch reprezentujący zarezerwowany 
+# dla sekwencji sterującej możemy to zrobić wykorzystując łańcuch 'surowy' lub sekwencję escape (\\)
+
+print('elo\\r', end='')
+print(r'zero\r', end='')
+
+# a dlaczego się to może przydać ? wypisz linie poniżej
+print('\sciezka\rok\numer\task')
+print(r'\sciezka\rok\numer\task')
+print('\\sciezka\\rok\\numer\\task')
+
+# można też wypisać znaki niestandardowe z tablicy Unicode
+print("\u2764")
+print("\u2765")
+print("\U0001F602")
+
+# tablica unicode w przyjaznej formie: https://symbl.cc/en/unicode/table/
+
+```
+
 > **Ćwiczenia**
 
 1. Napisz fragment kodu, który wczyta trzy zmienne ze standardowego wejścia (np. funkcja input()):
@@ -417,4 +446,4 @@ Czy można to zrobić prościej wykorzystując inne wbudowane metody?
 
 5. Przejdź na stronę https://pyformat.info/, a następnie zapisz w oddzielnym pliku .py i wykonaj 5 wybranych przykładów formatowania ciągów oznaczonego jako „New”, których nie było w przykładach z tego podrozdziału (np. z wyrównaniem do prawej lub lewej strony, ilością pozycji liczby, znakiem, wypełnieniem spacji itp.). Przerób zaprezentowane tam przykłady na postać z użyciem f-string.
 
-6. Wykorzystując **listing 7** wypisz na konsoli 10 wybranych znaków niestandardowych (np. litery z alfabetu greckiego, symbole walut - (funt, bitcoin)) wypisując jednocześnie jego kod z tablicy unicode.
+6. Wykorzystując **listing 10** wypisz na konsoli 10 wybranych znaków niestandardowych (np. litery z alfabetu greckiego, symbole walut - (funt, bitcoin)) wypisując jednocześnie jego kod z tablicy unicode.
