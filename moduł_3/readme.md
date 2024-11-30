@@ -333,7 +333,7 @@ Można tam znaleźć również informacje o złożoności obliczeniowej wybranyc
 > ## **Zadania**
 
 **Zadanie 1**  
-Stwórz listę z wartościami od 1 do 10. Następnie podziel listę tak, aby pierwsze 5 liczb zostało w oryginalnej liście a pozostałe 5 znalazło się w nowej liście.
+Stwórz listę z wartościami od 1 do 10. Następnie podziel listę tak, aby pierwsze 5 liczb zostało w oryginalnej liście, a pozostałe 5 znalazło się w nowej liście.
 
 **Zadanie 2**  
 Połącz te listy ponownie. Dodaj do listy wartość „0” na początku. Utwórz kopię połączonej listy i wyświetl listę posortowaną malejąco.
@@ -344,7 +344,7 @@ Napisz skrypt, który pobierze dowolny tekst ze standardowego wejścia poprzez f
 \* wykorzystaj rzutowanie typu `str` na `set` oraz `set` na `list` i użyj funkcji sortującej listę
 
 **Zadanie 4**  
-Stwórz słownik gdzie kluczami będą numery miesięcy (rozpoczynając od 1) a wartościami nazwy polskich miesięcy.
+Stwórz słownik gdzie kluczami będą numery miesięcy (rozpoczynając od 1), a wartościami nazwy polskich miesięcy.
 
 **Zadanie 5**  
 Stwórz podobny słownik jak w zadaniu 4, ale z angielskimi nazwami miesięcy. Połącz teraz słowniki tak, żeby przykładowo dla kwietnia, dostać się poprzez wyrażenie: months['pl'][4] a dla wersji angielskiej poprzez months['en'][4].
@@ -356,7 +356,7 @@ Poprawne wyjście: `{'M': 1, 'a': 1, 'r': 1, 'i': 1, 'n': 1}`
 **Zadanie 7**  
 Wykorzystaj moduł `string` (dodaje się go poprzez instrukcję `import string` zapisaną zazwyczaj na początku skryptu) i następnie:
 * wczytaj ze standardowego wejścia dowolny łańcuch znaków,
-* używając formatowania znaków wyświetl ile znaków oraz jaki procent (zamienionych na małe litery) z nich pokrywa się ze zbiorem znaków z: `string.ascii_lowercase, string.digits` (podpowiedź: operator `in`)
+* używając formatowania znaków wyświetl ile znaków oraz jaki procent (zamienionych na małe litery) z nich pokrywa się ze zbiorem znaków z: `string.ascii_lowercase, string.digits` (podpowiedź: operator `in` lub przecięcie zbiorów (`set.intersection()`)
 
 **Przykład:**  
 Wejście (input):  
