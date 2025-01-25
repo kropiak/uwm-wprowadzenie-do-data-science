@@ -1,4 +1,4 @@
-# Moduł 8 - Pakiet `requests` i żądania protokołu HTTP. Wybrane funkcje wbudowane.
+# Moduł 9 - Pakiet `requests` i żądania protokołu HTTP. Wybrane funkcje wbudowane.
 
 ## 1. Pakiet `requests`.
 
