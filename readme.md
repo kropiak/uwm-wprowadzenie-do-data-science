@@ -1,6 +1,6 @@
-# Wprowadzenie do języka Python
+# Wprowadzenie do data science
 
-Prowadzący: Krzysztof Ropiak, kropiak@matman.uwm.edu.pl
+Prowadzący: dr inż. Krzysztof Ropiak, kropiak@matman.uwm.edu.pl
 
 ## **1. Organizacja zajęć oraz zaliczenie przedmiotu**
 
